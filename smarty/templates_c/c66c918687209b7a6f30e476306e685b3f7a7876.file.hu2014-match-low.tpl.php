@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2014-03-20 04:27:59
+<?php /* Smarty version Smarty-3.0.7, created on 2014-03-29 01:07:10
          compiled from "../../../smarty/templates/hu2014-match-low.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:630648532a603f1c0052-71452980%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:59080263753360eae0f0771-62143356%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c66c918687209b7a6f30e476306e685b3f7a7876' => 
     array (
       0 => '../../../smarty/templates/hu2014-match-low.tpl',
-      1 => 1392821010,
+      1 => 1396051388,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '630648532a603f1c0052-71452980',
+  'nocache_hash' => '59080263753360eae0f0771-62143356',
   'function' => 
   array (
   ),
@@ -19,7 +19,7 @@ $_smarty_tpl->decodeProperties(array (
 )); /*/%%SmartyHeaderCode%%*/?>
 	<div class="match-embed" >
 	
-	 <a data-role="button" data-theme="c" href=<?php $_template = new Smarty_Internal_Template("psp2013-match-facebook-link.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
+	 <a data-role="button" data-theme="c" href=<?php $_template = new Smarty_Internal_Template("hu2014-match-facebook-link.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
  echo $_template->getRenderedTemplate();?><?php unset($_template);?>	  
 		   target='_blank'><img src="../../image/fb_logo.png" 
 		   alt="Sdílej na Facebooku" />
@@ -45,7 +45,7 @@ $_smarty_tpl->decodeProperties(array (
 			  var js, fjs = d.getElementsByTagName(s)[0];
 			  if (d.getElementById(id)) return;
 			  js = d.createElement(s); js.id = id;
-			  js.src = "//connect.facebook.net/sk_SK/all.js#xfbml=1";
+			  js.src = "//connect.facebook.net/hu_HU/all.js#xfbml=1";
 			  fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));</script> 
 					  <div class="fb-like" data-href="http://www.facebook.com/KohoVolit.eu" data-send="false" data-layout="box_count" data-width="50" data-show-faces="false"></div>
@@ -57,7 +57,7 @@ $_smarty_tpl->decodeProperties(array (
 
 			<!-- Place this tag after the last +1 button tag. -->
 			<script type="text/javascript">
-			  window.___gcfg = {lang: 'sk'};
+			  window.___gcfg = {lang: 'hu'};
 
 			  (function() {
 				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;

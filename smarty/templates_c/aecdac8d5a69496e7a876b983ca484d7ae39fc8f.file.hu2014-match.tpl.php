@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2014-03-20 04:27:58
+<?php /* Smarty version Smarty-3.0.7, created on 2014-03-29 01:10:48
          compiled from "../../../smarty/templates/hu2014-match.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:284073940532a603e8e2939-99995151%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:211510530153360f88cc0bd7-51808709%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'aecdac8d5a69496e7a876b983ca484d7ae39fc8f' => 
     array (
       0 => '../../../smarty/templates/hu2014-match.tpl',
-      1 => 1395286066,
+      1 => 1396051842,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '284073940532a603e8e2939-99995151',
+  'nocache_hash' => '211510530153360f88cc0bd7-51808709',
   'function' => 
   array (
   ),
@@ -31,17 +31,6 @@ $_smarty_tpl->decodeProperties(array (
 	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
 	<link rel="stylesheet" href="../../css/hu2014-page.css" />
 	
-	
-	<script type="text/javascript" >
-		$(document).on('pageinit', function () {
-		  $("#dms").hide();
-		  setTimeout(
-		    function() {
-		     $("#dms").show(800);
-		     $("#dms-mobile").popup("open");
-		    }, 20000);
-		});	
-	</script>
   </head>
 
   

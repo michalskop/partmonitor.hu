@@ -18,11 +18,11 @@ $smarty->setConfigDir('../../smarty/configs');
 //$_SESSION['email_provided'] = false;
  
 if (!isset($_SESSION['email_provided']) or (!$_SESSION['email_provided'])) {
-  $calc_code = 'president2014';
+  $calc_code = 'hu2014';
   $smarty->assign('calc_code',$calc_code);
   $smarty->assign('query_string',$_SERVER['QUERY_STRING']);
   $_SESSION['email_provided'] = true;
-  $smarty->display('psp2013_compare_dialog.tpl');
+  $smarty->display('hu2014_compare_dialog.tpl');
   
 
 } else {
@@ -76,7 +76,7 @@ if (!isset($_SESSION['email_provided']) or (!$_SESSION['email_provided'])) {
 	$smarty->assign('user',$user);
 	$smarty->assign('mps',$mps);
 	$smarty->assign('questions',$questions);
-	$smarty->display('psp2013-compare.tpl');
+	$smarty->display('hu2014-compare.tpl');
 }
 
 

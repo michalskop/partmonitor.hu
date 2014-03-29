@@ -1,6 +1,6 @@
 	<div class="match-embed" >
 	
-	 <a data-role="button" data-theme="c" href={include "psp2013-match-facebook-link.tpl"}	  
+	 <a data-role="button" data-theme="c" href={include "hu2014-match-facebook-link.tpl"}	  
 		   target='_blank'><img src="../../image/fb_logo.png" 
 		   alt="Sdílej na Facebooku" />
 	<span class="match-fb-text">Zdieľaj <span class="computer">výsledky </span>na Facebooku</span></a>
@@ -25,7 +25,7 @@
 			  var js, fjs = d.getElementsByTagName(s)[0];
 			  if (d.getElementById(id)) return;
 			  js = d.createElement(s); js.id = id;
-			  js.src = "//connect.facebook.net/sk_SK/all.js#xfbml=1";
+			  js.src = "//connect.facebook.net/hu_HU/all.js#xfbml=1";
 			  fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));</script> 
 					  <div class="fb-like" data-href="http://www.facebook.com/KohoVolit.eu" data-send="false" data-layout="box_count" data-width="50" data-show-faces="false"></div>
@@ -37,7 +37,7 @@
 
 			<!-- Place this tag after the last +1 button tag. -->
 			<script type="text/javascript">
-			  window.___gcfg = {lang: 'sk'};
+			  window.___gcfg = {lang: 'hu'};
 
 			  (function() {
 				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;

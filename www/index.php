@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='sk'>
+<html lang='hu'>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,15 +9,15 @@
 	<meta name="author" content="KohoVolit.eu" />
 	<meta name="robots" content="index, follow" />
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
-	<link rel="stylesheet" href="./css/president2014-page.css" />
+	<link rel="stylesheet" href="./css/hu2014-page.css" />
 	<link type="image/x-icon" href="./image/favicon.ico" rel="shortcut icon">
 
 	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
-	<meta property="og:image" content="http://volebnakalkulacka.sk/image/logo.jpg"/>
-	<meta property="og:title" content="Volebná kalkulačka"/>
-	<meta property="og:url" content="http://volebnakalkulacka.sk/"/>
-	<meta property="og:site_name" content="Volebná kalkulačka"/>
+	<meta property="og:image" content="http://voksmonitor.hu/image/logo.jpg"/>
+	<meta property="og:title" content="Voks monitor"/>
+	<meta property="og:url" content="http://voksmonitor.hu/"/>
+	<meta property="og:site_name" content="Voks monitor"/>
 	<meta property="og:type" content="website"/>
 
 	
@@ -34,7 +34,7 @@
 	
 	
 
-		<h1>Volebná kalkulačka</h1>
+		<h1>Voks monitor</h1>
 		<p>Najužitočnejších 5 minút pred voľbami.</p>
 	
 
@@ -42,9 +42,9 @@
 	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
 			<li data-role="list-divider"></li>
 				<li>
-					<a href="volba-prezidenta-2014" data-ajax="false">
+					<a href="2014-es-orszaggyulesi-valasztas" data-ajax="false">
 					  <img src='./image/sk.png' width="67" height="80">
-					  <h2>Voľba prezidenta 2014</h2>
+					  <h2>2014-es országgyűlési választás</h2>
 					  <p class="ui-li-desc">Zhoda s názormi kandidátov na prezidenta.</strong></p>
 					</a>
 				</li>
@@ -63,7 +63,7 @@
 			  var js, fjs = d.getElementsByTagName(s)[0];
 			  if (d.getElementById(id)) return;
 			  js = d.createElement(s); js.id = id;
-			  js.src = "//connect.facebook.net/sk_SK/all.js#xfbml=1";
+			  js.src = "//connect.facebook.net/hu_HU/all.js#xfbml=1";
 			  fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));</script> 
 					  <div class="fb-like" data-href="http://www.facebook.com/KohoVolit.eu" data-send="false" data-layout="box_count" data-width="50" data-show-faces="false"></div>
@@ -76,7 +76,7 @@
 
 			<!-- Place this tag after the last +1 button tag. -->
 			<script type="text/javascript">
-			  window.___gcfg = {lang: 'sk'};
+			  window.___gcfg = {lang: 'hu'};
 
 			  (function() {
 				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
@@ -101,7 +101,7 @@
 
 	 <!-- counter --> 
 	 <div class="counter">
-	   <span class="counter-number">
+	   <!--<span class="counter-number">
 <?php
   //$number = number_format(ceil($filesize/297.2),0,',',' '); original calculation
   $filesize = filesize('result.txt');
@@ -115,7 +115,7 @@
     echo $number;
   
 ?>
-		</span> vyplnených Volebných kalkulačiek
+		</span> vyplnených Volebných kalkulačiek-->
 	</div>
 	<!-- /counter -->
 	  

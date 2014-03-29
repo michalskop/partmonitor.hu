@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2014-03-20 04:27:58
+<?php /* Smarty version Smarty-3.0.7, created on 2014-03-29 01:12:10
          compiled from "../../../smarty/templates/hu2014-match-winner.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1964911521532a603ebe95f2-52688107%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:36906916953360fdaa13de5-98357908%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c6bd37d2688b13057f5afd4ae17e47480c5b712a' => 
     array (
       0 => '../../../smarty/templates/hu2014-match-winner.tpl',
-      1 => 1393367290,
+      1 => 1396051927,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1964911521532a603ebe95f2-52688107',
+  'nocache_hash' => '36906916953360fdaa13de5-98357908',
   'function' => 
   array (
   ),
@@ -28,12 +28,11 @@ $_smarty_tpl->decodeProperties(array (
 &id=<?php echo $_smarty_tpl->getVariable('results')->value[0]['id'];?>
 &match=<?php echo $_smarty_tpl->getVariable('results')->value[0]['result_percent'];?>
 " data-rel="dialog" style="text-decoration:none">
-		  <div><img src="../../image/president2014/<?php echo $_smarty_tpl->getVariable('results')->value[0]['friendly_name'];?>
-.jpg" width="122" height="155" alt="<?php echo $_smarty_tpl->getVariable('results')->value[0]['name'];?>
+		  <div><img src="../../image/hu2014/<?php echo $_smarty_tpl->getVariable('results')->value[0]['friendly_name'];?>
+.jpg" width="155" height="155" alt="<?php echo $_smarty_tpl->getVariable('results')->value[0]['name'];?>
 " title="<?php echo $_smarty_tpl->getVariable('results')->value[0]['name'];?>
 " /></div>
-		  <div class="match-winner"><?php echo $_smarty_tpl->getVariable('results')->value[0]['first_name'];?>
-<br/><?php echo $_smarty_tpl->getVariable('results')->value[0]['last_name'];?>
+		  <div class="match-winner"><?php echo $_smarty_tpl->getVariable('results')->value[0]['short_name'];?>
 </div>
 		  <div class="match-winner-percentage"><span class="match-winner-percentage-number"><?php echo $_smarty_tpl->getVariable('results')->value[0]['result_percent'];?>
 </span> %</div>
@@ -46,12 +45,11 @@ $_smarty_tpl->decodeProperties(array (
 &id=<?php echo $_smarty_tpl->getVariable('results')->value[1]['id'];?>
 &match=<?php echo $_smarty_tpl->getVariable('results')->value[1]['result_percent'];?>
 " data-rel="dialog" style="text-decoration:none">
-		  <div><img src="../../image/president2014/<?php echo $_smarty_tpl->getVariable('results')->value[1]['friendly_name'];?>
-.jpg" width="122" height="155" alt="<?php echo $_smarty_tpl->getVariable('results')->value[1]['name'];?>
+		  <div><img src="../../image/hu2014/<?php echo $_smarty_tpl->getVariable('results')->value[1]['friendly_name'];?>
+.jpg" width="155" height="155" alt="<?php echo $_smarty_tpl->getVariable('results')->value[1]['name'];?>
 " title="<?php echo $_smarty_tpl->getVariable('results')->value[1]['name'];?>
 " /></div>
-		  <div class="match-winner"><?php echo $_smarty_tpl->getVariable('results')->value[1]['first_name'];?>
-<br/><?php echo $_smarty_tpl->getVariable('results')->value[1]['last_name'];?>
+		  <div class="match-winner"><?php echo $_smarty_tpl->getVariable('results')->value[1]['short_name'];?>
 </div>
 		  <div class="match-winner-percentage"><span class="match-winner-percentage-number"><?php echo $_smarty_tpl->getVariable('results')->value[1]['result_percent'];?>
 </span> %</div>
@@ -64,12 +62,11 @@ $_smarty_tpl->decodeProperties(array (
 &id=<?php echo $_smarty_tpl->getVariable('results')->value[2]['id'];?>
 &match=<?php echo $_smarty_tpl->getVariable('results')->value[2]['result_percent'];?>
 " data-rel="dialog" style="text-decoration:none">
-		  <div><img src="../../image/president2014/<?php echo $_smarty_tpl->getVariable('results')->value[2]['friendly_name'];?>
-.jpg" width="122" height="155" alt="<?php echo $_smarty_tpl->getVariable('results')->value[2]['name'];?>
+		  <div><img src="../../image/hu2014/<?php echo $_smarty_tpl->getVariable('results')->value[2]['friendly_name'];?>
+.jpg" width="155" height="155" alt="<?php echo $_smarty_tpl->getVariable('results')->value[2]['name'];?>
 " title="<?php echo $_smarty_tpl->getVariable('results')->value[2]['name'];?>
 " /></div>
-		  <div class="match-winner"><?php echo $_smarty_tpl->getVariable('results')->value[2]['first_name'];?>
-<br/><?php echo $_smarty_tpl->getVariable('results')->value[2]['last_name'];?>
+		  <div class="match-winner"><?php echo $_smarty_tpl->getVariable('results')->value[2]['short_name'];?>
 </div>
 		  <div class="match-winner-percentage"><span class="match-winner-percentage-number"><?php echo $_smarty_tpl->getVariable('results')->value[2]['result_percent'];?>
 </span> %</div>
@@ -83,8 +80,7 @@ $_smarty_tpl->decodeProperties(array (
 	  <div class="match-winner-block">
 	      <div class="ui-grid-a">
 	        <div class="ui-block-a">
-			  <div class="match-winner"><?php echo $_smarty_tpl->getVariable('results')->value[0]['first_name'];?>
-<br/><?php echo $_smarty_tpl->getVariable('results')->value[0]['last_name'];?>
+			  <div class="match-winner"><?php echo $_smarty_tpl->getVariable('results')->value[0]['short_name'];?>
 </div>
 		    </div>
 		    <div class="ui-block-b">

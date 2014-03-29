@@ -3,11 +3,11 @@
 * Texts (for translation)
 */
 $text = array(
-  'calc' => 'Electoral Calculator',
+  'calc' => 'Voksmonitor 2014',
    'info' => 'Info',
    //PAGE
    //header
-  'page_header_desktop' => "Pártmonitor 2014",
+  'page_header_desktop' => "Voksmonitor 2014",
   'page_header_mobile' => 'Kérdés ',
   //question
   'page_question_yes' => 'IGEN',
@@ -18,7 +18,7 @@ $text = array(
   'page_next' => 'Előre',
   'page_next_question' => 'Következő kérdés',
   'page_progressbar_question' => 'Kérdés',
-  'page_progressbar_from' => 'from',
+  'page_progressbar_from' => '/',
   //important questions
   'page_header_mobile_important' => 'Fontos kérdések',
   'page_important_legend' => '<strong> Válaszd ki a számodra legfontosabb kérdéseket</strong>. Így pontosabb lesz az eredmény. Ez a rész opcionális, kihagyhatod.',

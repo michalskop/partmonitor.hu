@@ -8,9 +8,9 @@
 	  <div class="question ui-body ui-body-{$partner['swatch_question_body']}">	  
 	    <ul data-role="listview" data-theme="{$partner['swatch_question_body']}" data-filter="true" data-filter-placeholder="{$text.result_filter}" data-filter-theme="e">
 	      {foreach $results as $key=>$result}
-	        <li {if $key % 2}data-theme="c"{/if}><a href="../compare.php?{$query_string}&id={$result.id}&match={$result.result_percent}" data-rel="dialog" ><img src="../../image/1x1.png" class="president2014-sprite president2014-sprite-{$result.friendly_name}" alt="{$result.last_name}"/>
-	        <h3>{$result.last_name|truncate:35:"...":true}</h3>
-	        <div class="computer"><p class="ui-li-desc">{$result.first_name}</p></div>
+	        <li {if $key % 2}data-theme="c"{/if}><a href="../compare.php?{$query_string}&id={$result.id}&match={$result.result_percent}" data-rel="dialog" ><img src="../../image/1x1.png" class="hu2014-sprite hu2014-sprite-{$result.friendly_name}" alt="{$result.name}"/>
+	        <h3>{$result.name|truncate:35:"...":true}</h3>
+	        <div class="computer"><p class="ui-li-desc">{$result.name} ({$result.short_name}</p></div>
 	        <p class="ui-li-aside">
 	        <span class="computer result-number
 	          {if $result.result >= .8} result-very-positive

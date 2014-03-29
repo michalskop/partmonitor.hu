@@ -126,9 +126,10 @@ function calc_match($user,$set,$extra=2) {
     }
     if ($count == 0) $count = 1; // to allow match = 0/1 = 0;
     $results[] = array(
-      'name' => $s->first_name . ' ' . $s->last_name,
-  	  'first_name' => $s->first_name,
-  	  'last_name' => $s->last_name,
+      'name' => $s->name,
+      'short_name' => $s->short_name,
+  	  //'first_name' => $s->first_name,
+  	  //'last_name' => $s->last_name,
   	  //'party' => $s->party,
   	  'friendly_name' => $s->friendly_name,
   	  'result' => (1+$sum/$count)/2,

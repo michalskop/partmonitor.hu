@@ -10,17 +10,6 @@
 	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
 	<link rel="stylesheet" href="../../css/hu2014-page.css" />
 	
-	
-	<script type="text/javascript" >
-		$(document).on('pageinit', function () {
-		  $("#dms").hide();
-		  setTimeout(
-		    function() {
-		     $("#dms").show(800);
-		     $("#dms-mobile").popup("open");
-		    }, 20000);
-		});	
-	</script>
   </head>
 
   

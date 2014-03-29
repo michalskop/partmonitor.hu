@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2014-03-20 04:27:58
+<?php /* Smarty version Smarty-3.0.7, created on 2014-03-29 00:53:41
          compiled from "../../../smarty/templates/hu2014-match-table.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1936144495532a603ee13830-32740984%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:152258458853360b85c20082-73625166%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '5a6b84d82c4cb0ae1ab57a002bf61fd4a4b34068' => 
     array (
       0 => '../../../smarty/templates/hu2014-match-table.tpl',
-      1 => 1392828978,
+      1 => 1396050808,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1936144495532a603ee13830-32740984',
+  'nocache_hash' => '152258458853360b85c20082-73625166',
   'function' => 
   array (
   ),
@@ -42,12 +42,13 @@ if ($_smarty_tpl->_count($_from) > 0){
 	        <li <?php if ($_smarty_tpl->tpl_vars['key']->value%2){?>data-theme="c"<?php }?>><a href="../compare.php?<?php echo $_smarty_tpl->getVariable('query_string')->value;?>
 &id=<?php echo $_smarty_tpl->tpl_vars['result']->value['id'];?>
 &match=<?php echo $_smarty_tpl->tpl_vars['result']->value['result_percent'];?>
-" data-rel="dialog" ><img src="../../image/1x1.png" class="president2014-sprite president2014-sprite-<?php echo $_smarty_tpl->tpl_vars['result']->value['friendly_name'];?>
-" alt="<?php echo $_smarty_tpl->tpl_vars['result']->value['last_name'];?>
+" data-rel="dialog" ><img src="../../image/1x1.png" class="hu2014-sprite hu2014-sprite-<?php echo $_smarty_tpl->tpl_vars['result']->value['friendly_name'];?>
+" alt="<?php echo $_smarty_tpl->tpl_vars['result']->value['name'];?>
 "/>
-	        <h3><?php echo smarty_modifier_truncate($_smarty_tpl->tpl_vars['result']->value['last_name'],35,"...",true);?>
+	        <h3><?php echo smarty_modifier_truncate($_smarty_tpl->tpl_vars['result']->value['name'],35,"...",true);?>
 </h3>
-	        <div class="computer"><p class="ui-li-desc"><?php echo $_smarty_tpl->tpl_vars['result']->value['first_name'];?>
+	        <div class="computer"><p class="ui-li-desc"><?php echo $_smarty_tpl->tpl_vars['result']->value['name'];?>
+ (<?php echo $_smarty_tpl->tpl_vars['result']->value['short_name'];?>
 </p></div>
 	        <p class="ui-li-aside">
 	        <span class="computer result-number

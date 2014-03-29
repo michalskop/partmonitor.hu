@@ -1,0 +1,53 @@
+
+
+google analytics code (or another tracking)
+
+
+Parties: 
+correct names and short names here:
+https://docs.google.com/spreadsheets/d/1CN5XXxbYR-khh8QW7gCOpQVWAScHrqWcewilz25z1DE/edit?usp=sharing
+The short names are important as they are used for the logos and results
+
+Questions:
+you may set weights (order) to questions:
+https://docs.google.com/spreadsheets/d/1qSj75OG4u2OjgI_aYSVN7lLJmvF1aIJEHmFQfVuPTIY/edit?usp=sharing
+no weight (empty weight) means the question is not used in the calculator
+
+you need to set short "names" (no more than 3-4 words, 2 ideally) for the questions (used in results)
+
+
+
+Set correct subdirectory name (smthg like "2014-es-orszaggyulesi-valasztas")
+
+
+Hungarian logo/coat of arms/... for frontpage:
+(./image/sk.png' width="67" height="80")
+height 80px
+
+K-monitor logo:
+dimensions 150px × 27px (height is important)
+/image/kohovolit-logo-dark-small.png
+
+
+Party logos 
+155x155
+Sprites
+80x80
+
+Correct texts in frontpage=index.php or redo it as you wish
+
+The lower part below the result table is fully customizable (may be even empty) as it may be very different for different elections:
+hu2014-match-low.tpl
+
+
+set correct rights for
+results.txt
+emails.txt
+
+
+Translate dialog
+directly in hu2014_compare_dialog.tpl
+
+
+
+Correct fb link
