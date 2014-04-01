@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Vložiť volebnú kalkulačku | Volebná Kalkulačka</title>
+    <title>Voksmonitor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
     <link type="image/x-icon" href="../image/favicon.ico" rel="shortcut icon">
@@ -13,19 +13,18 @@
   </head>
   
 <body>
-  <div data-role="page" data-title="Embed | VolebníKalkulačka.cz" data-theme="b" class='page type-interior'>
+  <div data-role="page" data-title="Embed | Voksmonitor.hu" data-theme="b" class='page type-interior'>
 
     <div data-role="header" data-theme="f" class="header">
-	  <a href="/" data-role="button" data-icon="home" data-iconpos="notext" data-ajax="false">VolebnáKalkulačka.sk</a>
-	  <h3 class="h1">Vložiť volebnú kalkulačku | VolebnáKalkulačka.sk</h3>
+	  <a href="/" data-role="button" data-icon="home" data-iconpos="notext" data-ajax="false">Voksmonitor.hu.sk</a>
 	</div>
 
 
   <div data-role="content" class="content">
   
-    <h1>VolebnáKalkulačka.sk vložená na Vašom webe</h1>
-    <p>Rovnako ľahko ako napríklad toto video z Youtube si môžete vložiť k sebe na webové stránky aj Volebné kalkulačku.</p>
-    <div class="box-center-match"><iframe width="420" height="315" src="http://www.youtube.com/embed/UQyaSYhVJ9g" frameborder="0" allowfullscreen></iframe></div>
+    <p>A Voksmonitor alkalmazhatás egyetlen kód bemásolásával
+beágyazható honlapok és blogok felületére.</p>
+
     
     <div class="box-center-match match-winner-box">
     
@@ -43,8 +42,8 @@
             	    <div data-role="collapsible" {if (isset($size['selected']) and ($size['selected']))}data-collapsed="false"{/if}  data-theme="e" data-content-theme="e">
             	     <h3>{$size['name']}</h3>
             	     <div data-role="fieldcontain">
-						<p>Kód HTML:</p>
-						<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://volebnakalkulacka.sk/{$c['friendly_url']}key={$key}" width="{$size['width']}" height="{$size['height']}" frameborder="0" ></iframe></textarea>
+						<p>HTML:</p>
+						<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://voksmonitor.hu/{$c['friendly_url']}key={$key}" width="{$size['width']}" height="{$size['height']}" frameborder="0" ></iframe></textarea>
 					</div> 
             	    </div>
             	 {/foreach}

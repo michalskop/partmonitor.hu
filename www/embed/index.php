@@ -31,26 +31,16 @@ foreach ($constit as $ckey=>$c) {
 
 
 $sizes = array(
-  array('name' => 'Najväčšia 850x600', 'width' => '850', 'height' => '600'),
-  array('name' => 'Štandardná 650x550', 'width' => '650', 'height' => '550', 'selected' => true),
-  array('name' => 'Mobilná 480x320', 'width' => '480', 'height' => '320'),
-  array('name' => 'Mobilná na výšku 320x480', 'width' => '320', 'height' => '480'),
+  array('name' => '850x600', 'width' => '850', 'height' => '600'),
+  array('name' => '650x550', 'width' => '650', 'height' => '550', 'selected' => true),
+  array('name' => '480x320', 'width' => '480', 'height' => '320'),
+  array('name' => '320x480', 'width' => '320', 'height' => '480'),
 );
 
 $calcs = array(
-  'all' => array(
-    'name' => 'Celá VolebnáKalkulačka.sk',
-    'calc' => array(array('name'=>'VolebnáKalkulačka.sk','friendly_url'=>'?')),
-  ),
-  
-  'president2014' => array(
-    'name' => 'Volebná kalkulačka pre prezidentské voľby 2014',
-    'calc' => array(array('name'=>'Prezidentské voľby 2014','friendly_url'=>'volba-prezidenta-2014/?')),
-  ),
-
-  'vuc2013' => array(
-    'name' => 'Krajské volebné kalkulačky 2013',
-    'calc' => $constit,
+  'hu2014' => array(
+    'name' => '2014-es magyarországi országgyűlési választás',
+    'calc' => array(array('name'=>'2014-es magyarországi országgyűlési választás','friendly_url'=>'2014-es-orszaggyulesi-valasztas/?')),
   ),
 
 );
