@@ -10,7 +10,7 @@ $path = '../www/';
 );*/ 
 
 $fanswers = array(
- 'hu2014' => file("./source/hu2014_answers.tsv"),
+ 'hu2014' => file("./source/hu2014_answers.tsv"), //https://docs.google.com/spreadsheet/ccc?key=0As-ZabyYqo6tdFZZTnVvTFoyU2E0VUs5bmk5WlpuSUE&usp=sharing
 );
 
 //print_r($fanswers);die();
@@ -183,8 +183,8 @@ $fout = fopen ($dir . 'details_ser.txt', "w+");
 	fclose($fout);
 
 function answer2value($a) {
-  if ($a == 'Igen') return 1;
-  if ($a == 'Nem') return -1;
+  if (($a == 'Igen') or ($a == 'IGEN')) return 1;
+  if (($a == 'Nem') or ($a == 'NEM')) return -1;
   else return 0;
 }
 

@@ -13,7 +13,7 @@
   </head>
   
 <body>
-  <div data-role="page" data-title="Embed | Voksmonitor.hu" data-theme="b" class='page type-interior'>
+  <div data-role="page" data-title="Beágyazás | Voksmonitor.hu" data-theme="b" class='page type-interior'>
 
     <div data-role="header" data-theme="f" class="header">
 	  <a href="/" data-role="button" data-icon="home" data-iconpos="notext" data-ajax="false">Voksmonitor.hu.sk</a>
@@ -22,8 +22,7 @@
 
   <div data-role="content" class="content">
   
-    <p>A Voksmonitor alkalmazhatás egyetlen kód bemásolásával
-beágyazható honlapok és blogok felületére.</p>
+    <p>A Voksmonitor alkalmazhatás egyetlen kód bemásolásával beágyazható honlapok és blogok felületére.</p>
 
     
     <div class="box-center-match match-winner-box">

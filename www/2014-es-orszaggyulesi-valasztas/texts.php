@@ -65,7 +65,7 @@ $text = array(
   'dms_info' => 'More info',
 
   'result_winner_computer' => 'Ezek a pártok állnak hozzád a legközelebb:',
-  'result_winner_share' => 'Oszd meg <span class="computer">az eredményt </span> Facebookon</span>',
+  'result_winner_share' => 'Oszd meg <span class="computer">az eredményt </span> a Facebookon</span>',
   'missing_table_description' => 'Az alábbi pártok <strong>még nem válaszoltak</strong>:',
   'refused_table_description' => 'Az alábbi pártok <strong>nem kívántak válaszolni a kérdésekre</strong>:',
   'refused_explanation' => 'Magyarázat',

@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Volebná kalkulačka | voľby 2014</title>
-	<meta name="description" content="Voľby 2014 sa blížia! Spočítajte si koho voliť!" />
-	<meta name="keywords" content="voľby 2014, prezidentské voľby , volebná kalkulačka, volebný test" />
+	<title>Voksmonitor | választás 2014</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
 	<meta name="author" content="KohoVolit.eu" />
 	<meta name="robots" content="index, follow" />
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
@@ -35,7 +35,7 @@
 	
 
 		<h1>Voksmonitor</h1>
-		<p>A leghasznosabb 5 perccel a választások előtt.</p>
+		<p>Tudd meg 5 perc alatt, melyik párt áll hozzád a legközelebb!</p>
 	
 
 
@@ -95,7 +95,7 @@
 	  </div><!-- /grid -->
 	  
 	 <div>
-	   <p style="text-align:justify"><strong>Választási 2014 Választások kalkulátor</strong> segít a döntés, hogy kire szavazzanak a választásokon 2014-ben. Választási kalkulátor összehasonlítja a válaszokat a jelöltek elnöknek. <strong>Választások vizsgálat csak körülbelül 5 percig.</strong>
+	   <p style="text-align:justify">A <strong>Voksmonitor</strong> alkalmazás célja, hogy a választók a politikával ne csak a pártok kommunikációján keresztül találkozzanak – hanem megismerjék a különböző pártok programját és álláspontját a legfontosabb szakmai-politikai kérdésekben. <strong>A kérdőív kitöltése körülbelül 5 percet vesz igénybe</strong>.
 	 </p>
 	 </div> 
 
@@ -132,8 +132,7 @@
             Date();a=s.createElement(o),
               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.
             parentNode.insertBefore(a,m)
-              })(window,document,'script','//www.google-analytics.com/analytics.js
-            ','ga');
+              })(window,document,'script','//www.google-analytics.com/analytics.js         ','ga');
 
               ga('create', 'UA-49538088-1', 'voksmonitor.hu');
               ga('send', 'pageview');
@@ -149,9 +148,12 @@
 			
   		  </ul>
 	    </div>
-	        <p class="right computer" style="position:relative;bottom:12px;>
+	        <p class="right computer" style="position:relative;bottom:10px;">
 			  <a href="http://kmonitor.hu">
 				<img src="image/klogo.png" title="K-Monitor" alt="K-Monitor"/>
+			  </a>
+			  <a href="http://kohovolit.eu">
+				<img src="image/kvlogo.png" title="KohoVolit.eu" alt="KohoVolit.eu"/>
 			  </a>
 		  </p>
 		   <div>
