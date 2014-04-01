@@ -143,8 +143,8 @@
 	    <div data-role="navbar">
 		  <ul>
 		  	
-			<li><a href="info" data-ajax="false">A projektről Voksmonitor.hu</a></li>
-			<li><a href="embed" data-ajax="false">Tedd alkalmazást a web</a></li>
+			<li><a href="info" data-ajax="false">A voksmonitor.hu projektről</a></li>
+			<li><a href="embed" data-ajax="false">A voksmonitor beágyazása saját honlapon vagy blogon</a></li>
 			
   		  </ul>
 	    </div>

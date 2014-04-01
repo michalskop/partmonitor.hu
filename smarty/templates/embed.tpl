@@ -34,7 +34,7 @@
 
           <h3>{$calc['name']}</h3>
           {foreach $calc['calc'] as $c}
-          	<div data-role="collapsible" {if (isset($calc['selected']) and ($cals['selected']))}data-collapsed="false"{/if} data-theme="d" data-content-theme="d">
+          	<div data-role="collapsible" {if (isset($calc['selected']) and ($calc['selected']))}data-collapsed="false"{/if} data-theme="d" data-content-theme="d">
           	
             	 <h3>{$c['name']}</h3>
             	 {foreach $sizes as $size}

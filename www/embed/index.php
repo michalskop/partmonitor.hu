@@ -40,6 +40,7 @@ $sizes = array(
 $calcs = array(
   'hu2014' => array(
     'name' => '2014-es magyarországi országgyűlési választás',
+    'selected' => true,
     'calc' => array(array('name'=>'2014-es magyarországi országgyűlési választás','friendly_url'=>'2014-es-orszaggyulesi-valasztas/?')),
   ),
 
