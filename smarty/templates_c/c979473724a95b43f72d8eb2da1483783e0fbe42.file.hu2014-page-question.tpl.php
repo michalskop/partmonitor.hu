@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2014-03-20 04:23:12
+<?php /* Smarty version Smarty-3.0.7, created on 2014-04-01 00:21:45
          compiled from "../../smarty/templates/hu2014-page-question.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1927385263532a5f20db5134-08866391%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:20892704275339ea79306cf2-22727597%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c979473724a95b43f72d8eb2da1483783e0fbe42' => 
     array (
       0 => '../../smarty/templates/hu2014-page-question.tpl',
-      1 => 1379984635,
+      1 => 1396304502,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1927385263532a5f20db5134-08866391',
+  'nocache_hash' => '20892704275339ea79306cf2-22727597',
   'function' => 
   array (
   ),
@@ -21,12 +21,7 @@ $_smarty_tpl->decodeProperties(array (
 ">
 	    <!-- question content -->
 	    <div class="question-content">
-	      <!--<?php $_template = new Smarty_Internal_Template("psp2013-page-question-popup.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
- echo $_template->getRenderedTemplate();?><?php unset($_template);?>-->
-	      <!--<h2 class="question-name"><?php echo $_smarty_tpl->getVariable('question')->value->name;?>
-</h2>-->
-	      <!--<div class="question-description"><?php echo $_smarty_tpl->getVariable('question')->value->description;?>
-</div>-->
+
 	      <div class="question-question-alone"><?php echo $_smarty_tpl->getVariable('question')->value->question;?>
 </div>	     	      
 	    </div><!-- /question content -->

@@ -1,4 +1,4 @@
-"http://www.facebook.com/dialog/feed?app_id=647475721940594&
+"http://www.facebook.com/dialog/feed?app_id=297106463778572&
 	  link={$text.result_fb_redirect_link|escape:'url'}&
 	  picture={$text.result_fb_picture_link|escape:'url'}{$results[0].friendly_name}.jpg&
 	  name={$text.result_fb_name|escape:'url'}&

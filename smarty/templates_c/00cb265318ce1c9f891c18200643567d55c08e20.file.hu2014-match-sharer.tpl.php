@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2014-03-29 01:07:09
+<?php /* Smarty version Smarty-3.0.7, created on 2014-04-01 02:14:29
          compiled from "../../../smarty/templates/hu2014-match-sharer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:21655468253360eadd50714-22994749%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:759169794533a04e560be58-67800386%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '00cb265318ce1c9f891c18200643567d55c08e20' => 
     array (
       0 => '../../../smarty/templates/hu2014-match-sharer.tpl',
-      1 => 1396051452,
+      1 => 1396311265,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '21655468253360eadd50714-22994749',
+  'nocache_hash' => '759169794533a04e560be58-67800386',
   'function' => 
   array (
   ),
@@ -28,20 +28,5 @@ $_smarty_tpl->decodeProperties(array (
        alt="<?php echo $_smarty_tpl->getVariable('text')->value['result_share_results_on_facebook'];?>
 " /></a>
   </div>
-  
-  <div>
-    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://volebnakalkulacka.sk" data-via="KohoVolitEU" data-lang="<?php echo $_smarty_tpl->getVariable('text')->value['result_twitter_data_lang'];?>
-" data-size="large" data-count="none" data-text="<?php echo $_smarty_tpl->getVariable('text')->value['result_twitter_text_1'];?>
-<?php echo $_smarty_tpl->getVariable('text')->value['result_twitter_text_2'];?>
- <?php echo $_smarty_tpl->getVariable('results')->value[0]['last_name'];?>
-(<?php echo $_smarty_tpl->getVariable('results')->value[0]['result_percent'];?>
-%)  <?php echo $_smarty_tpl->getVariable('text')->value['result_twitter_text_3'];?>
- <?php echo $_smarty_tpl->getVariable('results')->value[$_smarty_tpl->getVariable('results_count')->value-1]['last_name'];?>
-(<?php echo $_smarty_tpl->getVariable('results')->value[$_smarty_tpl->getVariable('results_count')->value-1]['result_percent'];?>
-%) <?php echo $_smarty_tpl->getVariable('text')->value['result_twitter_hashtags'];?>
-"><?php echo $_smarty_tpl->getVariable('text')->value['result_twitter_share'];?>
-</a>
-   </div>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 </div>

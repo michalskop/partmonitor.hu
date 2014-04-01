@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2013-10-29 04:23:29
+<?php /* Smarty version Smarty-3.0.7, created on 2014-03-31 23:26:14
          compiled from "../../smarty/templates/psp2013-page-question-popup.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1565837736526f2a3176c5d8-30351538%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:18504704275339dd76d82b93-39227762%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1565837736526f2a3176c5d8-30351538',
+  'nocache_hash' => '18504704275339dd76d82b93-39227762',
   'function' => 
   array (
   ),

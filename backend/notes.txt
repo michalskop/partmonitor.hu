@@ -1,6 +1,6 @@
 
 
-google analytics code (or another tracking)
+#google analytics code (or another tracking)
 
 
 Parties: 
@@ -39,6 +39,8 @@ Correct texts in frontpage=index.php or redo it as you wish
 The lower part below the result table is fully customizable (may be even empty) as it may be very different for different elections:
 hu2014-match-low.tpl
 
+
+Info page
 
 set correct rights for
 results.txt

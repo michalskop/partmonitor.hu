@@ -3,12 +3,11 @@
 * VAA
 * reads questions from json
 */
-
 include("../setup.php");
 
 
 $qfile = 'questions.json';
-$region = 'bratislava';
+
 
 
 if (!isset($_SESSION['started'])) {
@@ -51,7 +50,7 @@ include("texts.php");
 
 $smarty->assign('text',$text);
 $smarty->assign('partner',$partner);
-$smarty->assign('region',$region);
+
 $smarty->assignByRef('questions', $questions);
 $smarty->assign('number_questions',$number_questions);
 $smarty->display('hu2014-page.tpl');

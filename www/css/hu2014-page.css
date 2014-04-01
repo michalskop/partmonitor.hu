@@ -1032,6 +1032,23 @@ color: #a21412;
 .president2014-sprite-simko{ background-position: 0 -1690px; width: 63px; height: 80px; } 
 
 
+.hu2014-sprite {
+    background: url('../image/hu2014/hu2014-sprite.jpg') no-repeat top left;
+    width: 80px;
+    height: 80px;
+}
+
+.hu2014-sprite-dk{ background-position: 0 0; width: 80px; height: 80px; } 
+.hu2014-sprite-egytt2014-pm{ background-position: 0 -130px; width: 80px; height: 80px; } 
+.hu2014-sprite-fidesz{ background-position: 0 -260px; width: 80px; height: 80px; } 
+.hu2014-sprite-jobbik{ background-position: 0 -390px; width: 80px; height: 80px; } 
+.hu2014-sprite-kdnp{ background-position: 0 -520px; width: 80px; height: 80px; } 
+.hu2014-sprite-liberlisok{ background-position: 0 -650px; width: 80px; height: 80px; } 
+.hu2014-sprite-lmp{ background-position: 0 -780px; width: 80px; height: 80px; } 
+.hu2014-sprite-mszp{ background-position: 0 -910px; width: 80px; height: 80px; } 
+.hu2014-sprite-none{ background-position: 0 -1040px; width: 62px; height: 80px; } 
+.hu2014-sprite-szocildemokratk{ background-position: 0 -1170px; width: 80px; height: 80px; } 
+
 
 #jqm-homeheader img {
     height: 108px;

@@ -1,9 +1,7 @@
 	  <div class="question ui-body ui-body-{$partner['swatch_question_body']}">
 	    <!-- question content -->
 	    <div class="question-content">
-	      <!--{include "psp2013-page-question-popup.tpl"}-->
-	      <!--<h2 class="question-name">{$question->name}</h2>-->
-	      <!--<div class="question-description">{$question->description}</div>-->
+
 	      <div class="question-question-alone">{$question->question}</div>	     	      
 	    </div><!-- /question content -->
 	  

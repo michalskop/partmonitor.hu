@@ -1,24 +1,24 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2014-03-20 04:23:34
+<?php /* Smarty version Smarty-3.0.7, created on 2014-03-31 23:38:53
          compiled from "../../smarty/templates/hu2014-page.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1445678140532a5f36b45402-93400388%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3515923455339e06db9c041-42804953%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ce0f8943112142328982d497e21a693b40e8a078' => 
     array (
       0 => '../../smarty/templates/hu2014-page.tpl',
-      1 => 1395285811,
+      1 => 1396301909,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1445678140532a5f36b45402-93400388',
+  'nocache_hash' => '3515923455339e06db9c041-42804953',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
 )); /*/%%SmartyHeaderCode%%*/?>
 <!DOCTYPE html> 
-<html lang='cs'>
+<html lang='hu'>
 
 <head>
 	<meta charset="utf-8">

@@ -34,8 +34,8 @@
 	
 	
 
-		<h1>Voks monitor</h1>
-		<p>Najužitočnejších 5 minút pred voľbami.</p>
+		<h1>Voksmonitor</h1>
+		<p>A leghasznosabb 5 perccel a választások előtt.</p>
 	
 
 
@@ -43,9 +43,9 @@
 			<li data-role="list-divider"></li>
 				<li>
 					<a href="2014-es-orszaggyulesi-valasztas" data-ajax="false">
-					  <img src='./image/sk.png' width="67" height="80">
+					  <img src='./image/hu.jpg' width="67" height="80">
 					  <h2>2014-es országgyűlési választás</h2>
-					  <p class="ui-li-desc">Zhoda s názormi kandidátov na prezidenta.</strong></p>
+					  <!--<p class="ui-li-desc">Zhoda s názormi kandidátov na prezidenta.</strong></p>-->
 					</a>
 				</li>
 				
@@ -57,7 +57,7 @@
 <div class="ui-grid-b social-block">
 
 
-        <div class="ui-block-a">
+        <div class="ui-block-b">
 		    <div id="fb-root"></div>
 			<script>(function(d, s, id) {
 			  var js, fjs = d.getElementsByTagName(s)[0];
@@ -66,7 +66,7 @@
 			  js.src = "//connect.facebook.net/hu_HU/all.js#xfbml=1";
 			  fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));</script> 
-					  <div class="fb-like" data-href="http://www.facebook.com/KohoVolit.eu" data-send="false" data-layout="box_count" data-width="50" data-show-faces="false"></div>
+					  <div class="fb-like" data-href="https://www.facebook.com/Kmonitor" data-send="false" data-layout="box_count" data-width="50" data-show-faces="false"></div>
 		</div>		  
 		
 		<div class="ui-block-b social-g">
@@ -95,7 +95,7 @@
 	  </div><!-- /grid -->
 	  
 	 <div>
-	   <p style="text-align:justify"><strong>Volebná kalkulačka pre prezidentské voľby 2014</strong> Vám pomôže v rozhodnutí koho voliť vo voľbách 15. marca 2014. <strong>Volebná kalkulačka</strong> porovnáva Vaše odpovede s názormi kandidátov na prezidenta. <strong>Volebný test Vám zaberie približne 5 minút.</strong>
+	   <p style="text-align:justify"><strong>Választási 2014 Választások kalkulátor</strong> segít a döntés, hogy kire szavazzanak a választásokon 2014-ben. Választási kalkulátor összehasonlítja a válaszokat a jelöltek elnöknek. <strong>Választások vizsgálat csak körülbelül 5 percig.</strong>
 	 </p>
 	 </div> 
 
@@ -126,13 +126,17 @@
 	</div> <!-- /content -->
 	
 		<script type="text/javascript">
-			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]
+            =i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+            Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.
+            parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js
+            ','ga');
 
-			  ga('create', 'UA-8592359-12', 'volebnakalkulacka.sk');
-			  ga('send', 'pageview');
+              ga('create', 'UA-49538088-1', 'voksmonitor.hu');
+              ga('send', 'pageview');
 		</script>
 		
 
@@ -140,20 +144,20 @@
 	    <div data-role="navbar">
 		  <ul>
 		  	
-			<li><a href="info" data-ajax="false">O projekte VolebnáKalkulačka.sk</a></li>
-			<li><a href="embed" data-ajax="false">Vložiť Volebnú kalkulačku k sebe na web</a></li>
-			<li><a href="http://volebnikalkulacka.cz/archive" data-ajax="false">Archív volebných kalkulačiek</a></li>
+			<li><a href="info" data-ajax="false">A projektről Voksmonitor.hu</a></li>
+			<li><a href="embed" data-ajax="false">Tedd alkalmazást a web</a></li>
+			
   		  </ul>
 	    </div>
-	        <p class="right computer">
-			  <a href="http://kohovolit.eu">
-				<img src="./image/kohovolit-logo-dark-small.png" title="KohoVolit.eu" alt="KohoVolit.eu"/>
+	        <p class="right computer" style="position:relative;bottom:12px;>
+			  <a href="http://kmonitor.hu">
+				<img src="image/klogo.png" title="K-Monitor" alt="K-Monitor"/>
 			  </a>
 		  </p>
 		   <div>
-				<a href="#contact-popup" data-role="button" data-icon="info" data-mini="true" data-inline="true" data-rel="popup">Kontakt</a>
+				<a href="#contact-popup" data-role="button" data-icon="info" data-mini="true" data-inline="true" data-rel="popup">Érintkezés</a>
 				<div data-role="popup"  data-role="popup" id="contact-popup">
-					<p> 2013 <a href="http://kohovolit.eu">KohoVolit.eu</a>, kontakt: Michal Škop +420&nbsp;775&nbsp;187&nbsp;021, Kamil Gregor +420&nbsp;724&nbsp;362&nbsp;427, email: jmeno.prijmeni[zavinac]kohovolit.eu</p>
+					<p> 2014 <a href="http://kmonitor.hu">K-Monitor</a>, email: lederer[at]kmonitor.hu</p>
 				</div>
 			</div>
 			
