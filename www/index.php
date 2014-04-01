@@ -157,7 +157,7 @@
 			  </a>
 		  </p>
 		   <div>
-				<a href="#contact-popup" data-role="button" data-icon="info" data-mini="true" data-inline="true" data-rel="popup">Érintkezés</a>
+				<a href="#contact-popup" data-role="button" data-icon="info" data-mini="true" data-inline="true" data-rel="popup">Kapcsolat</a>
 				<div data-role="popup"  data-role="popup" id="contact-popup">
 					<p> 2014 <a href="http://kmonitor.hu">K-Monitor</a>, email: lederer[at]kmonitor.hu</p>
 				</div>
