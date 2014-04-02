@@ -69,7 +69,7 @@ $text = array(
   'missing_table_description' => 'Az alábbi pártok <strong>még nem válaszoltak</strong>:',
   'refused_table_description' => 'Az alábbi pártok <strong>nem kívántak válaszolni a kérdésekre</strong>:',
   'refused_explanation' => 'Magyarázat',
-  'image_link' => '../../image/hu2014/party/',//'http://www.politickysupermarket.sk/', 
+  'image_link' => '../../image/hu2014/',//'http://www.politickysupermarket.sk/', 
   
   //COMPARE
   'compare_title' => 'Részletes összehasonlítás',

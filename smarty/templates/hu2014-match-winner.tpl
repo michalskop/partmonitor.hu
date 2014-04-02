@@ -45,7 +45,7 @@
 	  </div>
     </div>
 
-	<a data-role="button" data-theme="c" href={include "psp2013-match-facebook-link.tpl"}	  
+	<a data-role="button" data-theme="c" href={include "hu2014-match-facebook-link.tpl"}	  
 		   target='_blank'><img src="../../image/fb_logo.png" 
 		   alt="{$text.result_share_results_on_facebook}" />
 	<span class="match-fb-text">{$text.result_winner_share}</a>
