@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2014-04-01 01:00:52
+<?php /* Smarty version Smarty-3.0.7, created on 2014-04-02 10:12:45
          compiled from "../../../smarty/templates/hu2014-match-winner.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:18439996895339f3a422cca4-25311729%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:622350045533bc67dcab1e9-90305225%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c6bd37d2688b13057f5afd4ae17e47480c5b712a' => 
     array (
       0 => '../../../smarty/templates/hu2014-match-winner.tpl',
-      1 => 1396051927,
+      1 => 1396426126,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18439996895339f3a422cca4-25311729',
+  'nocache_hash' => '622350045533bc67dcab1e9-90305225',
   'function' => 
   array (
   ),
@@ -91,7 +91,7 @@ $_smarty_tpl->decodeProperties(array (
 	  </div>
     </div>
 
-	<a data-role="button" data-theme="c" href=<?php $_template = new Smarty_Internal_Template("psp2013-match-facebook-link.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
+	<a data-role="button" data-theme="c" href=<?php $_template = new Smarty_Internal_Template("hu2014-match-facebook-link.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
  echo $_template->getRenderedTemplate();?><?php unset($_template);?>	  
 		   target='_blank'><img src="../../image/fb_logo.png" 
 		   alt="<?php echo $_smarty_tpl->getVariable('text')->value['result_share_results_on_facebook'];?>
