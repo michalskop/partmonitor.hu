@@ -68,7 +68,7 @@ $text = array(
    'result_eu' => 'EU-s eredmények',
    
    //comparison
-   'result_close' => 'Közel áll',
+   'result_close' => 'Bezár',
    'result_yes' => 'Igen',
    'result_no' => 'Nem',
    'result_question' => 'Kérdés',
