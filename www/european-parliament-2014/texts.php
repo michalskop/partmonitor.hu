@@ -67,14 +67,6 @@ $text = array(
    'result_comparison' => 'Comparison',
    'result_eu' => 'Results in EU',
    
-   //support (DMS)
-   'result_support' => '<strong>Support “Electoral calculator” to keep it independent</strong><br/>
-  Send a text message to &nbsp;number&nbsp;<strong><span class="colorstrong">87777</span></strong>
-  with&nbsp;text <strong><span class="colorstrong">DMS&nbsp;KOHOVOLIT</span></strong>
-  (charge 30Kč, out of which 28Kč for KohoVolit.eu) or 
-   <strong><span class="colorstrong">DMS&nbsp;ROK&nbsp;KOHOVOLIT</span></strong>
-   (automatically every month for 1 year)',
-   
    //comparison
    'result_close' => 'Close',
    'result_yes' => 'Yes',
