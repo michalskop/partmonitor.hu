@@ -9,7 +9,10 @@ $('#modal').on('show.bs.modal', function (e) {
         $.ajax({
           url: '../questions.json',
           success: function(data){
-            var questions = data;
+            if ((typeof data) == "string")
+              var questions = $.parseJSON(data); //voksmonitor server does not return correct data
+            else
+              var questions = data;
             create_comparison(questions);
           }
         });
@@ -24,7 +27,9 @@ function create_comparison(questions) {
         $.ajax({
           url: '../details.json',
           success: function(data){
-            make_comparison(questions,data);
+            if ((typeof data) == "string")
+              data = $.parseJSON(data)
+            make_comparison(questions,data);  //voksmonitor server does not return correct data
           }
         });
     } else {
