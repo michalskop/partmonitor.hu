@@ -9,8 +9,8 @@ $text = array(
   'lang' => 'hu',
   //meta
   'author' => 'KohoVolit.eu',
-  'description' => 'Euro-elections 2014 are coming!',
-  'keywords' => '2014-es választások, európai választások, választási kalkulátor, választási teszt',
+  'description' => 'Főpolgármester-választás Budapest 2014',
+  'keywords' => '2014-es választások, választási kalkulátor, Budapest, önkormányzati választások, választási teszt',
   //fb
   'og:image' => 'http://volebnikalkulacka.cz/image/logo.jpg',
   'author_link' => 'http://kohovolit.eu',
@@ -23,16 +23,16 @@ $text = array(
   'calc' => 'Voksmonitor',
   'info' => 'Infó',
   'url' => 'http://voksmonitor.hu', 
-  'title' => 'Voksmonitor 2014 | Európai Parlament',
+  'title' => 'Voksmonitor 2014 | Budapest',
 
    //PAGE
-  'calc_name' => 'Voksmonitor - európai parlamenti választások 2014 (magyar pártok)',
+  'calc_name' => 'Voksmonitor - főpolgármester-választás Budapest 2014',
   'page_question_yes' => 'Igen, egyetértek',
   'page_question_no' => 'Nem értek egyet',
   'page_question_neutral' => 'Nem tudom',
   'page_question_neutral_add' => '',
-  'page_important_questions' => 'Fontos kérdés', 
-  'page_important_legend' => '<strong>Válaszd ki a számodra legfontosabb kérdéseket</strong>.  Így pontosabb lesz az eredmény. Ez a rész opcionális, kihagyhatod.',
+  'page_important_questions' => 'Fontos téma', 
+  'page_important_legend' => '<strong>Válaszd ki a számodra legfontosabb témákat</strong>,  így pontosabb lesz az eredmény. Ez a rész opcionális, kihagyhatod.',
   'page_important_skip' => 'Kihagyom',
   'page_important_results' => 'Eredmények',  
   
@@ -42,7 +42,7 @@ $text = array(
    //MATCH
    'match_save' => 'Szavazataid mentése',
  
-   'result_winner_share' => 'Oszd meg az eredményt Facebookon',    
+   'result_winner_share' => 'Oszd meg az eredményt a Facebookon',    
    'result_share' => 'Eredmények megosztása',
    
    'comparison_parties_eu' => 'Összehasonlítás EU-s pártokkal',
@@ -52,13 +52,13 @@ $text = array(
    //fb
    'result_fb_appid' => "297106463778572",
   'result_fb_picture_link' => 'http://voksmonitor.hu/european-parliament-2014/image/logo/',
-  'result_fb_name' => 'EP Voksmonitor:',
-  'result_fb_description_1' => 'Az alábbi magyar pártok programja áll hozzám legközelebb: ',
+  'result_fb_name' => 'Voksmonitor Budapest:',
+  'result_fb_description_1' => 'Az alábbi főpolgármester-jelöltek programja áll hozzám legközelebb: ',
   'result_fb_description_match' => 'egyezés',
   'result_fb_description_and' => 'és',
   'result_fb_description_only' => 'csak',
   'result_fb_description_2' => 'A legtávolabb pedig: ',
-  'result_fb_description_3' => 'Nézd meg, melyik párt programja áll hozzád a legközelebb: Voksmonitor.hu',
+  'result_fb_description_3' => 'Nézd meg, melyik jelölt programja áll hozzád a legközelebb: Voksmonitor.hu',
   'result_fb_redirect_link' => 'http://voksmonitor.hu/',
   'result_fb_link' => 'http://voksmonitor.hu/',
   'result_fb_action' => "[{'name':'Kire szavazzak?','link':'http://voksmonitor.hu/'}]",
@@ -87,7 +87,7 @@ $text = array(
   //RESULTS
 
   'result_twitter_data_lang' => 'en',
-  'result_twitter_text_1' => 'EP választás kalkulátor: elsõ ',
+  'result_twitter_text_1' => 'Voksmonitor Budapest: elsõ ',
   //'result_twitter_text_2' => '1.',
   //'result_twitter_and' => 'és',
   'result_twitter_text_3' => ', utolsó ',

@@ -12,10 +12,10 @@ include("../common.php");
 include("../config.php");
 
 // put full path to Smarty.class.php
-require('/usr/local/lib/php/Smarty/Smarty.class.php');
+require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
 $smarty = new Smarty();
 
-$smarty->setTemplateDir('../../../smarty/templates/' . $text['election_code']);
+$smarty->setTemplateDir('../../../smarty/templates/' . $text['template_code']);
 $smarty->setCompileDir('../../../smarty/templates_c');
 
 //answers of voters
@@ -28,8 +28,6 @@ $user = get_user_values();
 //calculate match, for selected CC only
 $results = calc_match($user,$answers,$config);
 
-//create EU link
-$eu_link = create_eu_link($user,$results[0]['id']);
 
 //encode user, answers and qcoefs for direct print into file
 $user_json = json_encode($user);
@@ -65,7 +63,6 @@ $smarty->assign('text', $text);
 $smarty->assign('partnercss', $partnercss);
 $smarty->assign('background',$background);
 $smarty->assign('navbar',$navbar);
-$smarty->assign('eu_link',$eu_link);
 $smarty->assign('query_string', $_SERVER['QUERY_STRING']);
 $smarty->assign('results', $results);
 $smarty->assign('url',$url);
@@ -78,23 +75,12 @@ $smarty->display('match.tpl');
 
 //save results
 
-$str = session_id() . "\t" . "calc2014ep" . "\t" . date("Y-m-d H:i:s") . "\t" . $_SERVER['QUERY_STRING'] .  "\t" . $_SERVER['REMOTE_ADDR'] . "\n";
+$str = session_id() . "\t" . $text['election_code'] . "\t" . date("Y-m-d H:i:s") . "\t" . $_SERVER['QUERY_STRING'] .  "\t" . $_SERVER['REMOTE_ADDR'] . "\n";
 $file = fopen('../../result.txt','a');
 fwrite($file,$str);
 fclose($file);
 
-/**
-* create link for EU (HU)
-*/
-function create_eu_link($user,$party_id) {
-  $out = "https://map.votematch.eu/?c=hu&p[]=" . $party_id;
-  foreach ($user['vote'] as $key=>$item) {
-    if ($key <= 20) {
-      $out .= '&s' . $key . '=' . $item; 
-    }
-  }
-  return $out;
-}
+
 
 /**
 * calculates results for one set
@@ -110,7 +96,7 @@ function calc_match($user,$set,$config,$extra=2) {
         if (isset($user['weight'][$key])) $w = $extra;
         else $w = 1;
         //existing divisions only:
-        if ((property_exists($s,'vote')) and (property_exists($s->vote,$key))) {
+        if ((property_exists($s,'vote')) and (property_exists($s->vote,$key)) and ($uv != 0)) {
           $sum = $sum + $w*$s->vote->$key*sign($uv);
           $count = $count + $w;
         }
