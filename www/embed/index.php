@@ -20,6 +20,15 @@ $constit = array(
   'zilina' => 'Žilinský kraj'
 );
 
+$calc2014bp = array (
+  array(
+    'name' => '2014-es onkormanyzati választás',
+    'friendly_url' => '2014-es-onkormanyzati-valasztas/?',
+    'selected' => true,
+    'custom' => true
+  ),
+);
+
 $calc2014ep = array (
   array(
     'name' => '2014-es európai parlamenti választás',
@@ -47,6 +56,11 @@ $sizes = array(
 );
 
 $calcs = array(
+  'calc2014bp' => array(
+    'name' => 'Voksmonitor Budapest 2014',
+    'calc' => $calc2014bp,
+  ),
+
   'calc2014ep_hu' => array(
     'name' => 'Voksmonitor Európai Parlament 2014',
     'calc' => $calc2014ep,
