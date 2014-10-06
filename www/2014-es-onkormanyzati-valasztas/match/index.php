@@ -12,7 +12,7 @@ include("../common.php");
 include("../config.php");
 
 // put full path to Smarty.class.php
-require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
+require('/usr/local/lib/php/Smarty/Smarty.class.php');
 $smarty = new Smarty();
 
 $smarty->setTemplateDir('../../../smarty/templates/' . $text['template_code']);
