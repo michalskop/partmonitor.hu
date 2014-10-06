@@ -16,7 +16,7 @@
                         <tr id="weightsel-row-{$question->id}">
                           <td class="weightsel-td">
                             <label class="weightsel-button btn btn-lg" for="c-{$question->id}" id="important-{$i}-{$question->id}">
-                              <input type="checkbox" name="c-{$question->id}" id="c-{$question->id}"/> {$question->name}
+                              <input type="checkbox" name="c-{$question->id}" id="c-{$question->id}" style="visibility:hidden"/> {$question->name}
                             </label>
                           </td>
                         </tr>
