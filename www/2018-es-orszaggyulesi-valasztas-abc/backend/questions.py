@@ -9,7 +9,7 @@ try:
 except Exception:
     path = ""
 
-path = "/home/michal/project/volebnikalkulacka.cz/www/hu-2018/backend/"
+path = "/home/michal/project/voksmonitor.hu/www/2018-es-orszaggyulesi-valasztas-match/backend/"
 
 url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSb5jvfZWEsd4a9NTtHaElM7RSONQn4oZf9v31LTaDDaK6bNW1PFDnI9DkLtFcQF-EzsZFfCcIkAsG5/pub?gid=270217634&single=true&output=csv"
 
@@ -22,11 +22,11 @@ csvio = io.StringIO(r.text, newline="")
 i = 1
 
 for row in csv.DictReader(csvio):
-    print(row)
+    # print(row)
     if row['order'].strip() != '':
         item = {
             'id': row['id'].strip(),
-            'name': row['question'].strip(),
+            'name': row['name'].strip(),
             'question': row['question'].strip(),
             'description': '',
             'order': float(row['order'].strip())
@@ -39,7 +39,7 @@ for row in csv.DictReader(csvio):
     # tags = row[7].split(', ')
     it = {
         'id': row['id'].strip(),
-        'name': row['question'].strip(),
+        'name': row['name'].strip(),
         'question': row['question'].strip(),
         'description': '',
         'order': order
