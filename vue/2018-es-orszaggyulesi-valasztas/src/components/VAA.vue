@@ -45,8 +45,8 @@
                                             </label>
                                         </div>
                                         <div class="col-4">
-                                            <label class="btn btn-outline-secondary btn-lg btn-block" :class="checked(question.id, 0)" @click="addAnswer(question.id, 0)">
-                                                <input type="radio" :name="radioName(index)" :id="radionId(question.id, 0)" class="vaa-btn" @click="addAnswer(question.id, 0)"><small>{{ $t("dont_know") }}</small>
+                                            <label class="btn btn-outline-secondary btn-lg btn-block btn-smaller" :class="checked(question.id, 0)" @click="addAnswer(question.id, 0)">
+                                                <input type="radio" :name="radioName(index)" :id="radionId(question.id, 0)" class="vaa-btn" @click="addAnswer(question.id, 0)"><small class="smaller-btn">{{ $t("dont_know") }}</small>
                                             </label>
                                         </div>
                                     </div>
@@ -191,12 +191,19 @@
     .h2 {
         padding: 0 20px;
         font-weight: 700;
+        font-size: 1.5rem;
     }
     .carousel-control-prev, .carousel-control-next {
         height: 70%;
     }
     .carousel-control-prev-icon, .carousel-control-next-icon {
         background-color: #bbb;
+    }
+    .smaller-btn {
+        font-size: 0.6em;
+    }
+    .btn-smaller {
+        padding: .5rem 0;
     }
     /**/
     /* 320x568, iphone 5, 6% */
@@ -208,6 +215,12 @@
         p {
             font-size: 1.1rem;
         }
+        .smaller-btn {
+            font-size: 0.8em;
+        }
+        .btn-smaller {
+            padding: .5rem .5rem;
+        }
     }
     /* 360x640, e.g. Galaxy S5, 27% */
     /* 375x667, iPhone 6, 6% */
@@ -218,6 +231,12 @@
         }
         p {
             font-size: 1.1rem;
+        }
+        .smaller-btn {
+            font-size: 1em;
+        }
+        .btn-smaller {
+            padding: .5rem 1rem;
         }
     }
     /* 1366x768, 1920x1080, ..., laptop, >40% */
