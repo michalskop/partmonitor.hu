@@ -10,7 +10,7 @@
                     </a>
                 </div>
                 <div class="col-md-6">
-                    <a :href="createEmailLink()">
+                    <a :href="createEmailLink()" target="_blank">
                         <button class="btn btn-warning btn-block btn-lg" @click="clicked('email_top', {})">{{ $t('sent_by_email')}} <i class="fa fa-envelope"></i></button>
                     </a>
                 </div>
