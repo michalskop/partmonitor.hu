@@ -110,7 +110,7 @@ foreach ($parties as $pid) {
         </div>
         <div class="row text-center">
             <div class="col-6 table-success">
-                <h2><i class="fa fa-check"></i> Pro</h2>
+                <h2><i class="fa fa-check"></i> Egyetért</h2>
                 <?php
                 foreach ($groups["1"]["first"] as $p) { ?>
                     <span class="flex">
@@ -138,7 +138,7 @@ foreach ($parties as $pid) {
 
 
             <div class="col-6 table-danger">
-                <h2><i class="fa fa-close"></i> Proti</h2>
+                <h2><i class="fa fa-close"></i> Nem ért egyet</h2>
                 <?php
                 foreach ($groups["-1"]["first"] as $p) { ?>
                     <span class="flex">
@@ -166,7 +166,7 @@ foreach ($parties as $pid) {
         </div>
         <?php if ((count($groups["0"]["first"]) + count($groups["0"]["second"]) > 0)) { ?>
         <div class="text-center neutral table-secondary">
-            <h4><i class="fa fa-question"></i> Jiná odpověď / neodpověděl</h4>
+            <h4><i class="fa fa-question"></i> Nem tudja / nincs egyértelmű válasz</h4>
             <?php
             foreach ($groups["0"]["first"] as $p) { ?>
                 <span class="flex">
@@ -193,12 +193,12 @@ foreach ($parties as $pid) {
         </div>
         <?php } ?>
         <div class="note">
-            <i class="fa fa-info-circle"></i> Na základě odpovědí kandidátů do Volební kalkulačky 2018.
+            <i class="fa fa-info-circle"></i> A Voksmonitor 2018-nak adott válaszok alapján.
         </div>
         <div class="hithit text-center bg-primary">
             <h3></h3>
-            <h3>Další projekty autorů Volební kalkulačky?</h3>
-            <h3>projects.KohoVolit.eu</h3>
+            <h3>Ha fontosnak tartod, amit csinálunk, támogasd a K-Monitor munkáját! </h3>
+            <h3>K-Monitor.hu/tamogatas</h3>
         </div>
 
     </body>
