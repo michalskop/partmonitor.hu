@@ -9,8 +9,8 @@
                     <div class="card-body pb-1">
                         <div class="row">
                             <div class="col-8">
-                                <h4 class="card-title">{{ results[index].info.family_name }}</h4>
-                                <div class="card-text">{{ results[index].info.given_name }}</div>
+                                <h4 class="card-title">{{ results[index].info.abbreviation }}</h4>
+                                <div class="card-text">{{ results[index].info.name }}</div>
                                 <div class="card-text">
                                     <!-- <component-stars :stars="results[index].rating"></component-stars> -->
                                     <div class="stars">
@@ -24,7 +24,6 @@
                             </div>
                         </div>
                     </div>
-                    <component-p21 :code="results[index].info.picture" :idd="results[index].info.id"></component-p21>
                 </div>
                 <button type="button" class="btn btn-secondary btn-lg btn-block mt-2" data-dismiss="modal">{{ $t('close') }}</button>
             </div>
@@ -41,7 +40,7 @@
                             x
                         </th>
                         <th class="text-center">
-                            {{ results[index].info.family_name }}
+                            {{ results[index].info.abbreviation }}
                         </th>
                         <th class="text-center">
                             {{ $t('candidate_comment') }}
@@ -69,7 +68,6 @@
                                     <i class="fa fa-info-circle more-info" v-if="shortened(results[index]['info']['details'][question.id])" type="button" data-container="body" data-toggle="popover"  :data-content="getComment(question.id)"></i>
                                 </small>
                             </td>
-
                         </tr>
                     </tbody>
                 </table>
@@ -82,7 +80,6 @@
 </template>
 
 <script>
-    import p21 from './Prezident21.vue'
 
     export default {
         props: ['index', 'questions', 'results', 'answers', 'weights'],
@@ -165,7 +162,6 @@
             }
         },
         components: {
-            'component-p21': p21
         }
     }
 </script>

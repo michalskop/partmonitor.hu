@@ -36,6 +36,7 @@
 <style scoped>
     .stars {
         color: #ffc107;
+        min-width: 130px;
     }
     @media (min-width: 576px) {
         .stars {

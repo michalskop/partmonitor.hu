@@ -12,7 +12,7 @@ function load (component) {
 export default new Router({
     // https://forum.vuejs.org/t/404-error-after-deploying-vue-cli-on-my-host/18555
 
-    base: '/2018-es-orszaggyulesi-valasztas/',
+    base: '/hu/2018-es-orszaggyulesi-valasztas/',
     mode: 'history',
     routes: [
         { path: '/helloworld', name: 'HelloWorld', component: load('HelloWorld') },

@@ -56,7 +56,7 @@ module.exports = {
     // publicPath: '/cs/prezidentske-volby-2018/',
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/2018-es-orszaggyulesi-valasztas/',
+    assetsPublicPath: '/hu/2018-es-orszaggyulesi-valasztas/',
 
     /**
      * Source Maps
