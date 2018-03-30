@@ -19,7 +19,7 @@ try:
 except Exception:
     path = ""
 
-path = "/home/michal/project/volebnikalkulacka.cz/www/hu-2018/backend/"
+path = "/home/michal/project/voksmonitor.hu/www/2018-es-orszaggyulesi-valasztas/backend/"
 
 try:
     with open(path + "settings.json", encoding="utf-8") as f:
