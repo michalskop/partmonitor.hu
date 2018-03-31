@@ -26,10 +26,10 @@
             <!-- <a @click="clicked('wall_of_fame', {'text': 'wall'})" href="wall" class="btn btn-warning btn-block btn-lg mt-4"><i class="fa fa-heart text-danger"></i> <span class="wall-text">Zeď podporovatelů Volební kalkulačky</span></a> -->
         </div>
         <component-footer></component-footer>
-        <!-- <div class="filler"></div> -->
-        <!-- <div class="downer bg-success text-center p-2">
-            <a :href="createProjectsLink()" target="_blank" class="text-white"><h3 @click="clicked('projects_down', {'text': 'calc_at_your_place'})">Chcete Volební kalkulačĸu pro obecní volby 2018 u vás?</h3></a>
-        </div> -->
+        <div class="filler"></div>
+        <div class="downer bg-success text-center p-2">
+            <a :href="createProjectsLink()" target="_blank" class="text-white"><h3 @click="clicked('projects_down', {'text': 'support_k_monitor'})">Ha fontosnak tartod, amit csinálunk, támogasd a K-Monitor munkáját!</h3></a>
+        </div>
         <Analytics></Analytics>
     </div>
 </template>
@@ -63,7 +63,7 @@
                 this.$clicked(campaign, attributes)
             },
             createProjectsLink: function () {
-                return 'https://projects.kohovolit.eu/?vkid=' + this.$getSetCookie(this.$settings['cookie'])
+                return 'http://k-monitor.hu/tamogatas/?vkid=' + this.$getSetCookie(this.$settings['cookie'])
             },
             createFBLink: function () {
                 function encodeQueryData (data) {

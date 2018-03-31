@@ -41,10 +41,10 @@ if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
     <style>.table{max-width:666px; margin-top:50px;} .container{}</style>";
 
     echo "<div class='container'>
-    <h3>Moje shoda s kandidáty</h3>
+    <h3>Egyezés</h3>
     <table class='table'>";
     foreach($results as $row) {
-        echo "<tr><td><img src='https://volebnikalkulacka.azureedge.net/cs/volby-2017/statics/38x38/" . $row['picture'] . "'>";
+        echo "<tr><td><img src='http://voksmonitor.hu/hu/2018-es-orszaggyulesi-valasztas/statics/pictures/64x64/" . $row['picture'] . "'>";
         echo "<td>" . $row['name'];
         //echo "<td>" . $row['party_abbreviation'];
         echo "<td style='text-align:left'>" . $row['result_percent'] . '%';
