@@ -137,7 +137,7 @@ function calc_match($user,$set,$extra=2) {
         $res['random'] = rand(0,1000000);
         $results[] = $res;
      }
-
+fi
   //sort by result
   foreach ($results as $key => $row) {
     $result[$key]  = $row['result'];
