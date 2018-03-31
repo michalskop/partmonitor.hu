@@ -56,6 +56,11 @@ $sizes = array(
 );
 
 $calcs = array(
+    'hu2018' => array(
+      'name' => '2018-es magyarországi országgyűlési választás',
+      'calc' => array(array('name'=>'2018-es magyarországi országgyűlési választás','friendly_url'=>'hu/2018-es-orszaggyulesi-valasztas/?')),
+    ),
+
   'calc2014bp' => array(
     'name' => 'Voksmonitor Budapest 2014',
     'calc' => $calc2014bp,
@@ -80,7 +85,7 @@ $smarty->assign('calcs', $calcs);
 $smarty->assign('key', $key);
 $smarty->assign('sizes', $sizes);
 
-$smarty->display('embed.tpl'); 
+$smarty->display('embed.tpl');
 
 /**
 * generates random key
@@ -91,7 +96,7 @@ function randomAlphaNum($length){
     $rangeMax = pow(36, $length)-1; //largest number to give length digits in base 36
     $base10Rand = mt_rand($rangeMin, $rangeMax); //get the random number
     $newRand = base_convert($base10Rand, 10, 36); //convert it
-   
+
     return $newRand; //spit it out
 }
 
