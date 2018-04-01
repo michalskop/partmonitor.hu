@@ -9,7 +9,7 @@ try:
 except Exception:
     path = ""
 
-path = "/home/michal/project/voksmonitor.hu/www/2018-es-orszaggyulesi-valasztas-match/backend/"
+path = "/home/michal/project/voksmonitor.hu/www/2018-es-orszaggyulesi-valasztas/backend/"
 
 url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSb5jvfZWEsd4a9NTtHaElM7RSONQn4oZf9v31LTaDDaK6bNW1PFDnI9DkLtFcQF-EzsZFfCcIkAsG5/pub?gid=270217634&single=true&output=csv"
 
