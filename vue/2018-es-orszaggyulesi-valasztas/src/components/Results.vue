@@ -24,6 +24,7 @@
             <a @click="clicked('all_questions_table', {'text': 'overview'})" href="https://docs.google.com/spreadsheets/d/1nvnYD7iWWDrymsgLTb5HB8J6wUhykLgImG4nAuEweeo/edit?usp=sharing" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><i class="fa fa-table"></i> Minden kérdés és válasz egyetlen táblázatban</a>
 
             <!-- <a @click="clicked('wall_of_fame', {'text': 'wall'})" href="wall" class="btn btn-warning btn-block btn-lg mt-4"><i class="fa fa-heart text-danger"></i> <span class="wall-text">Zeď podporovatelů Volební kalkulačky</span></a> -->
+            <ResultsFacebookPageLike></ResultsFacebookPageLike>
         </div>
         <component-footer></component-footer>
         <div class="filler"></div>
@@ -40,6 +41,7 @@
     import ResultsWinners from './ResultsWinners.vue'
     import ResultsTable from './ResultsTable.vue'
     import ResultsNoreply from './ResultsNoreply.vue'
+    import ResultsFacebookPageLike from './ResultsFacebookPageLike.vue'
     import questions from '../data/questions.json'
     import votes from '../data/answers.json'
     import Analytics from './Analytics.vue'
@@ -194,7 +196,8 @@
             'component-results-winners': ResultsWinners,
             'component-results-table': ResultsTable,
             'component-results-noreply': ResultsNoreply,
-            Analytics
+            Analytics,
+            ResultsFacebookPageLike
         }
     }
 </script>
