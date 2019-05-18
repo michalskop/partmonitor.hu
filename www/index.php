@@ -5,20 +5,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Voksmonitor 2018 - Melyik párt áll hozzád a legközelebb?">
+    <meta name="description" content="Voksmonitor 2019 - Melyik párt áll hozzád a legközelebb?">
     <meta name="keywords" content="választás">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
 
     <meta property="og:image" content="http://volebnikalkulacka.cz/image/logo.jpg"/>
 	<meta property="og:title" content="Voksmonitor"/>
-	<meta property="og:description" content="Voksmonitor 2018 - Melyik párt áll hozzád a legközelebb?"/>
+	<meta property="og:description" content="Voksmonitor 2019 - Melyik párt áll hozzád a legközelebb?"/>
 	<meta property="og:url" content="http://voksmonitor.hu"/>
 	<meta property="og:site_name" content="Voksmonitor"/>
 	<meta property="og:type" content="website"/>
     <meta property="og:app_id" content="297106463778572"/>
 
-    <title>Voksmonitor 2018</title>
+    <title>Voksmonitor 2019</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +35,7 @@
     h1.voksh1{font-size: 2.5em;line-height: 40px; }
 	@media (min-width: 666px) {
   .header {
-        background: url("https://voksmonitor.hu/2014-es-onkormanyzati-valasztas/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+        background: url("https://volebnikalkulacka.azureedge.net/evropsky-parlament-2014/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
       }
       h1.voksh1{font-size: 4.5em;line-height: 60px; }
     }
@@ -75,14 +75,14 @@
 
 		<div class="vert-text">
 
-			<h1 class="voksh1">Voksmonitor 2018</h1>
+			<h1 class="voksh1">Voksmonitor 2019</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 			<p class="lead">
-               A <strong>Voksmonitor 2018</strong> segítségével összehasonlíthatod saját véleményedet az országgyűlési választásokon induló pártok álláspontjával.
+               A <strong>Voksmonitor 2019</strong> segítségével összehasonlíthatod saját véleményedet az választásokon induló pártok álláspontjával.
 
                 </p>
                    <div style="padding-bottom:3em">
-				     <a href="./hu/2018-es-orszaggyulesi-valasztas/" class="btn btn-lg btn-success">&nbsp;&nbsp;&nbsp;<strong>START</strong>&nbsp;&nbsp;&nbsp;</a>
+                    <a href="hu/2019-es-europai-parlamenti-valasztas?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn btn-success btn-lg">&nbsp;&nbsp;&nbsp;<strong>START</strong>&nbsp;&nbsp;&nbsp;</a>
 				   </div>
 
 				   <p>
