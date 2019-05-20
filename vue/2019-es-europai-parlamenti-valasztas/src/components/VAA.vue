@@ -188,7 +188,7 @@
     .h2 {
         padding: 0 20px;
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     p {
         font-size: 0.8rem;
@@ -204,7 +204,7 @@
     @media (min-width: 350px) {
         .h2 {
             border-left: 5px solid #027be3;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
         }
         p {
             font-size: 0.8rem;
@@ -215,20 +215,20 @@
     @media (min-width: 576px) {
         .h2 {
             border-left: 5px solid #027be3;
-            font-size: 2.2rem;
+            font-size: 2rem;
         }
         p {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
     }
     /* 1366x768, 1920x1080, ..., laptop, >40% */
     @media (min-width: 960px) {
         .h2 {
             border-left: 5px solid #027be3;
-            font-size: 3rem;
+            font-size: 2rem;
         }
         p {
-            font-size: 1.25rem;
+            font-size: 1rem;
         }
     }
     .vaa-btn {
