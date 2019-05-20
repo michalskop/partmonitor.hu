@@ -23,7 +23,7 @@ $constit = array(
 $calc2019ep = array (
   array(
     'name' => '2019-es európai parlamenti választás',
-    'friendly_url' => '2019-es-europai-parlamenti-valasztas/?',
+    'friendly_url' => 'hu/2019-es-europai-parlamenti-valasztas/?',
     'selected' => true,
     'custom' => true
   ),
