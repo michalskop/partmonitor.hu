@@ -20,6 +20,15 @@ $constit = array(
   'zilina' => 'Žilinský kraj'
 );
 
+$calc2019ep = array (
+  array(
+    'name' => '2019-es európai parlamenti választás',
+    'friendly_url' => '2019-es-europai-parlamenti-valasztas/?',
+    'selected' => true,
+    'custom' => true
+  ),
+);
+
 $calc2014bp = array (
   array(
     'name' => '2014-es onkormanyzati választás',
@@ -56,6 +65,11 @@ $sizes = array(
 );
 
 $calcs = array(
+    'calc2019ep_hu' => array(
+      'name' => 'Voksmonitor Európai Parlament 2019',
+      'calc' => $calc2019ep,
+    ),
+
     'hu2018' => array(
       'name' => '2018-es magyarországi országgyűlési választás',
       'calc' => array(array('name'=>'2018-es magyarországi országgyűlési választás','friendly_url'=>'hu/2018-es-orszaggyulesi-valasztas/?')),
