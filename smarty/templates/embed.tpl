@@ -22,7 +22,7 @@
 
   <div data-role="content" class="content">
 
-    <p>A Voksmonitor alkalmazhatás egyetlen kód bemásolásával beágyazható honlapok és blogok felületére.</p>
+    <p>A Voksmonitor alkalmazás beágyazásához válaszd ki az aktuális verziót és a megfelelő méretet!</p>
 
 
     <div class="box-center-match match-winner-box">

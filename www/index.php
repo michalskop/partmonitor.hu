@@ -18,7 +18,7 @@
 	<meta property="og:type" content="website"/>
     <meta property="og:app_id" content="297106463778572"/>
 
-    <title>Voksmonitor 2019</title>
+    <title>Voksmonitor Európai Parlament 2019</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -60,7 +60,7 @@
             </li>
             <li><a href="info/">Információ</a>
             </li>
-            <li><a href="/embed/">a Voksmonitor beillesztése</a>
+            <li><a href="/embed/">Voksmonitor beágyazása</a>
             </li>
             <li><a href="archive/">Archív</a>
             </li>
@@ -75,10 +75,10 @@
 
 		<div class="vert-text">
 
-			<h1 class="voksh1">Voksmonitor 2019</h1>
+			<h1 class="voksh1">Voksmonitor Európai Parlament 2019</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 			<p class="lead">
-               A <strong>Voksmonitor 2019</strong> segítségével összehasonlíthatod saját véleményedet az választásokon induló pártok álláspontjával.
+               A <strong>Voksmonitor 2019</strong> segítségével összehasonlíthatod saját véleményedet az európai parlamenti választásokon induló pártok álláspontjával.
 
                 </p>
                    <div style="padding-bottom:3em">
@@ -121,7 +121,7 @@
                     <hr>
 					<ul class="nav nav-pills" style="color: #428BCA;">
   <li><a href="info/">Információ</a></li>
-  <li><a href="embed/">a Voksmonitor beillesztése</a></li>
+  <li><a href="embed/">Voksmonitor beágyazása</a></li>
   <li><a href="archive/">Archív</a></li>
 </ul>
 					<p class="black">Creative Commons BY-SA 4.0 | <a href="http://kmonitor.hu">K-Monitor</a> & <a href="http://kohovolit.eu">KohoVolit.eu</a> 2018</p>

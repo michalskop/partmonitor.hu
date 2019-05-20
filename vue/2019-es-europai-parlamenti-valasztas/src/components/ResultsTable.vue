@@ -8,7 +8,7 @@
                 <div class="list-group-item list-group-item-action flex-column align-items-start" @click="clicked('result_table', {rank: index, id: result.info.id})" data-toggle="modal" data-target="#modal">
                     <div class="row">
                         <div class="col-4 col-sm-2">
-                            <!-- <img :src="'logos/80x80/' + result.info.picture" class="picture mr-2" /> -->
+                            <img :src="'logos/90x90/' + result.info.picture" class="picture mr-2" />
                             <div class="rating d-block d-sm-none">{{ result.result_percent }}%</div>
                         </div>
                         <div class="col-8 col-sm-6">

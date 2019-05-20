@@ -3,7 +3,7 @@
         <div class="card-group">
             <div v-for="(result, index) in results.slice(0,3)" class="card" @click="clicked('result_winners', {rank: index, id: result.info.id})" data-toggle="modal" data-target="#modal-winners">
                 <div class="card-body">
-                    <!-- <img :src="'logos/200x200/' + result.info.picture" class="picture mr-2" /> -->
+                    <img :src="'logos/200x200/' + result.info.picture" class="picture mr-2" />
                     <h4 class="card-title">{{ result.info.abbreviation }}</h4>
                     <h6 class="card-title">{{ result.info.name }}</h6>
                 </div>

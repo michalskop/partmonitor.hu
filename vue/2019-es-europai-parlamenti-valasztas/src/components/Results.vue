@@ -105,7 +105,7 @@
                 this.results[last].info.abbreviation + ' (' + this.results[last].result_percent + '%, ' + ')'
                 var href = {
                     ref: this.$getSetCookie(this.$settings['cookie']),
-                    og_image: 'logos/200x200/' + this.results[0].info.picture,
+                    og_image: this.$settings['cdn'] + this.$settings['path'] + 'logos/200x200/' + this.results[0].info.picture,
                     og_title: this.$t('og_title'),
                     og_description: this.$t('og_description')
                 }

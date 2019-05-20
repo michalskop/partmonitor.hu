@@ -20,7 +20,7 @@
                                 <div class="card-text text-muted">{{ $t('match') }}: {{ results[index].result_percent }}%</div>
                             </div>
                             <div class="col-4 text-right">
-                                <!-- <img :src="'logos/200x200/' + results[index].info.picture" class="picture mr-2" /> -->
+                                <img :src="'logos/200x200/' + results[index].info.picture" class="picture mr-2" />
                             </div>
                         </div>
                     </div>
