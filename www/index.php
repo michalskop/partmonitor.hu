@@ -16,7 +16,7 @@
 	<meta property="og:url" content="http://voksmonitor.hu"/>
 	<meta property="og:site_name" content="Voksmonitor"/>
 	<meta property="og:type" content="website"/>
-    <meta property="fb_app_id" content="297106463778572"/>
+    <meta property="fb:app_id" content="297106463778572"/>
 
     <title>Voksmonitor Budapest 2019</title>
 
