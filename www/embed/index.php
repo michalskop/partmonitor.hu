@@ -20,6 +20,15 @@ $constit = array(
   'zilina' => 'Žilinský kraj'
 );
 
+$calc2019bp = array (
+  array(
+    'name' => 'budapest-2019',
+    'friendly_url' => 'hu/budapest-2019/?',
+    'selected' => true,
+    'custom' => true
+  ),
+);
+
 $calc2019ep = array (
   array(
     'name' => '2019-es európai parlamenti választás',
@@ -65,6 +74,11 @@ $sizes = array(
 );
 
 $calcs = array(
+    'calc2019bp' => array(
+      'name' => 'Voksmonitor Budapest 2019',
+      'calc' => $calc2019bp,
+    ),
+
     'calc2019ep_hu' => array(
       'name' => 'Voksmonitor Európai Parlament 2019',
       'calc' => $calc2019ep,
