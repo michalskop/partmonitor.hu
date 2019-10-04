@@ -80,10 +80,18 @@
 			<p class="lead">
                A <strong>Voksmonitor Budapest</strong> segítségével összehasonlíthatod saját véleményedet az önkormányzati választásokon induló főpolgármester-jelöltek álláspontjával.
 
-                </p>
                    <div style="padding-bottom:3em">
-                    <a href="hu/budapest-2019?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn btn-success btn-lg">&nbsp;&nbsp;&nbsp;<strong>START</strong>&nbsp;&nbsp;&nbsp;</a>
-				   </div>
+                        <a href="hu/budapest-2019?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn btn-success btn-lg">&nbsp;&nbsp;&nbsp;<strong>START</strong>&nbsp;&nbsp;&nbsp;</a>
+				    </div>
+            </p>
+            <p class="lead">
+                <strong>Voksmonitor Budapest</strong> compares your views with the positions of mayoral candidates.
+                <div style="padding-bottom:3em">
+                    <a href="en/budapest-2019?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-success" style="white-space: normal;" >
+                            START IN ENGLISH
+                    </a>
+                </div>
+            </p>
 
 				   <p>
 
