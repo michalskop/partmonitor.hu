@@ -35,7 +35,7 @@
     h1.voksh1{font-size: 2.5em;line-height: 40px; }
 	@media (min-width: 666px) {
   .header {
-        background: url("https://volebnikalkulacka.azureedge.net/evropsky-parlament-2014/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+        background: url("https://voksmonitor.azureedge.net/2014-es-onkormanyzati-valasztas/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
       }
       h1.voksh1{font-size: 4.5em;line-height: 60px; }
     }
