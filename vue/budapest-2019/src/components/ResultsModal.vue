@@ -42,13 +42,17 @@
                         <th class="text-center">
                             {{ results[index].info.name }}
                         </th>
+                        <th class="text-center">
+                            {{ $t('candidate_comment') }}
+                        </th>
                     </thead>
                     <tbody>
                         <tr v-for="(question, ix) in questions" :class="[compared(answers[question.id], results[index]['info']['votes'][question.id]), weighted(weights[question.id])]">
                             <td>
                                 <i v-if="weights[question.id]" class="fa fa-star"></i>
+                                <font-awesome-icon icon="star" v-if="weights[question.id]" />
                                 {{ question.name }}
-                                <i class="fa fa-info-circle more-question" tabindex="0" data-toggle="popover" data-trigger="focus" :data-content="question.question" :title="$t('question')"></i>
+                                <font-awesome-icon icon="info-circle" v-b-popover.hover.top="question.question" />
                             </td>
                             <td class="text-center">
                                 {{ answer2Text(answers[question.id]) }}
@@ -58,6 +62,10 @@
                             </td>
                             <td class="text-center">
                                 {{ answer2TextThem(results[index]['info']['votes'][question.id]) }}
+                            </td>
+                            <td class="text-center comment p-2">
+                                {{ shortenText(results[index]['info']['details'][question.id]) }}
+                                <font-awesome-icon icon="info-circle" v-b-popover.hover.top="results[index]['info']['details'][question.id]" v-if="shortened(results[index]['info']['details'][question.id])"/>
                             </td>
 
                         </tr>
@@ -72,6 +80,16 @@
 </template>
 
 <script>
+    import { library } from '@fortawesome/fontawesome-svg-core'
+    import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+    import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
+    import { faStar } from '@fortawesome/free-solid-svg-icons'
+    import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+    library.add(faEnvelope)
+    library.add(faInfoCircle)
+    library.add(faStar)
+
     export default {
         props: ['index', 'questions', 'results', 'answers', 'weights'],
         mounted: function () {
@@ -153,6 +171,7 @@
             }
         },
         components: {
+            'font-awesome-icon': FontAwesomeIcon
         }
     }
 </script>
